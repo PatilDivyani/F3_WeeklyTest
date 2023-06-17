@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adding Employees</title>
+  </head>
+  <body>
+    <h4 class="title">New Employees</h4>
+    <div class="inputData">
+        <form action="" method="post">
+            <div>
+              <label for="name">Enter Name</label>
+            <input type="text" id="name" required />
+            </div>
+            <div>
+              <label for="profession">Enter Profession</label>
+            <input type="text" id="profession" required />
+            </div>
+            <div>
+              <label for="age">Enter Age</label>
+            <input type="number" id="age" pattern="0-9" maxlength="3"/>
+            </div>
+          </form>
+          <button class="addUser" type="submit">Add User</button>
+    </div>
+
+    <div class="msg">
+     <!-- <div>
+        Error : Please Make sure All fields are filled before adding in an
+        employee !
+     </p>      -->
+    </div>
+    
+    <h4 class="subtitle">Added Employees</h4>
+
+    <div class="displayInfo">
+      <p class="noEmployee">You have 0 Employees.</p>
+
+      <!-- <div class="employeeData">
+       <div class="employeeList">
+        <div class="id">1</div>
+        <div class="name">Name : John</div>
+        <div class="profession">Profession: Developer</div>
+        <div class="age">Age:18</div>
+       </div>
+        <button type="submit">Delete User</button>
+      </div> -->
+      
+    </div>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+}
+body{
+    background: black;
+    color: #fff;
+    font-family: serif , Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 1080px;
+    position: relative;
+}
+.title{
+    position: absolute;
+    width: 182px;
+    height: 29px;
+    left: 58px;
+    top: 96px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.inputData{
+    position: absolute;
+    left: 58px;
+    top: 173px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.inputData > form{
+    padding-top: 20px;
+    display: flex;
+    gap: 58px;
+}
+.inputData form > div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 15px;
+    
+}
+form > div input{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: black;
+    width: 531px;
+    height: 56px;
+    padding: 10px;
+}
+form > div input:hover{
+    color: #FFFFFF;
+    background: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.addUser{
+   position: absolute;
+    width: 226px;
+    height: 58px;
+    top: 135px;
+
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
+.msg{
+    position: absolute;
+    left: 58px;
+    top: 414px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+
+
+}
+.subtitle{
+    position: absolute;
+    width: 205px;
+    height: 29px;
+    left: 58px;
+    top: 491px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+.displayInfo{
+    position: absolute;
+    left: 58px;
+    top: 568px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.displayInfo > .employeeData{
+    display: flex;
+    gap: 15px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.employeeData > .employeeList{
+    width: 600px;
+    height: 59px;
+
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 16px 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.employeeList > div{
+    padding-right: 20px;
+}
+.employeeData > button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+   background: #FFFFFF;
+   border: none;
+   border-radius: 20px;
+   margin: auto ;
+   width: 162px;
+   height: 42px;
+   /* padding: 0 25px */
+}
